@@ -8,12 +8,13 @@
 ### Select the proper version of matlab
 
 source /usr/local/apps/psycapps/config/matlab_bash
+cd /MRIWork/MRIWork06/nr/michael_longley/40_sub_run
 
 # Make sure to change this according to your account and that this folder exists
 OUTPUT_LOG_DIR=$(pwd)/log
 mkdir -p $OUTPUT_LOG_DIR
 
-script_folder=$(pwd)
+script_folder=$/MRIWork/MRIWork06/nr/michael_longley/40_sub_run/analysis_scripts
 
 for subject_number in {2..3}
 do
